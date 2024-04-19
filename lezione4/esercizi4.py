@@ -11,6 +11,9 @@ def subtract(a, b):
 myresult = subtract(4, 1)
 print(myresult)
 
+
+print("")
+
 def check_value(num:int):
     if num > 5:
         print("num is greater than 5")
@@ -29,3 +32,7 @@ def check_length(s: str):
         print(f'{s} è più grande di 10 chars')
     else:
         print(f'{s} è uguale a 10 chars')
+
+def print_numbers(num_list)
+    for element in num_list:
+        print(element)
