@@ -19,3 +19,13 @@ def check_value(num:int):
     else:
         print("num is equal to 5")
 check_value(10)
+
+print("")
+
+def check_length(s: str):
+    if len(s) <10:
+        print(f'{s} è più piccolo di 10 chars')
+    elif len(a) > 10:
+        print(f'{s} è più grande di 10 chars')
+    else:
+        print(f'{s} è uguale a 10 chars')
