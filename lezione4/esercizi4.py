@@ -4,3 +4,10 @@
 #then, return the result
 #after you defined it, call the funciton with some arguments
 
+def subtract(a, b):
+    res = a - b
+    return res
+
+myresult = subtract(4, 1)
+print(myresult)
+
