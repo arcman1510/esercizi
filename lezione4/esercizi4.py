@@ -11,3 +11,10 @@ def subtract(a, b):
 myresult = subtract(4, 1)
 print(myresult)
 
+def check_value(num):
+    if num > 5:
+        print("num is greater than 5")
+    elif num < 5:
+        print("num is less than 5")
+    else:
+        print("num is equal to 5")
