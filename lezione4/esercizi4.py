@@ -36,3 +36,12 @@ def check_length(s: str):
 def print_numbers(num_list)
     for element in num_list:
         print(element)
+
+
+def check_each():
+    if len(s) < 10:
+        print(f'{s} è più piccolo di 10 chars')
+    elif len(a) > 10:
+        print(f'{s} è più grande di 10 chars')
+    else:
+        print(f'{s} è uguale a 10 chars')
