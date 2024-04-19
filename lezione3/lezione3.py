@@ -1,4 +1,4 @@
-lista = [manamana, 102938, plis, wut]
+lista = ["manamana", "102938", "plis", "wut"]
 
 x = max(lista)
 print(lista)
