@@ -18,4 +18,4 @@ def check_value(num:int):
         print("num is less than 5")
     else:
         print("num is equal to 5")
-    check_value(10,-1 )
+    check_value(10)
