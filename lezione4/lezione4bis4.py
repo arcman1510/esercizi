@@ -31,6 +31,8 @@ def majority_element(nums: list[int]) -> int:
         if nums.count(i) > len(nums) / 2:
             return i
     return None
+
+    
 """"
     d: dict[int, int] = dict(Counter(nums))
     for i in nums:
