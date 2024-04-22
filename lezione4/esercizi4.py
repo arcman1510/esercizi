@@ -36,7 +36,7 @@ def check_length(s: str):
 def print_numbers(num_list):
     for element in num_list:
         print(element)
-
+ 
 
 def check_each():
     if len(l) < 10:
