@@ -25,7 +25,7 @@ def is_palindrome(x: int) -> bool:
     return s == s1
 print("")
 
-
+""""
 s:str = str(x)
 i:int = 0
 s_length = len(s)
@@ -35,3 +35,4 @@ while i < (s_length // 2): # for i in range(len(s))
         return False
     i += 1
 return True
+"""
