@@ -55,12 +55,23 @@ You’ll have to think of someone else to invite.
 • Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 • Print a second set of invitation messages, one for each person who is still in your list.
 """
+
 name = guests[1].title()
 print("\nSorry, " + name + " can't make it to dinner.")
 
-# Jack can't make it! Let's invite Gary instead.
+# Lukaku can't make it! Let's invite Gary instead.
 del(guests[1])
-guests.insert(1, 'gary snyder')
+guests.insert(1, 'Lautaro')
+
+# Print the invitations again.
+name = guests[0].title()
+print("\n" + name + ", I would like to invite you to dinner.")
+
+name = guests[1].title()
+print(name + ", I would like to invite you to dinner.")
+
+name = guests[2].title()
+print(name + ", I would like to invite you to dinner.")
 
 
 """
@@ -72,7 +83,28 @@ Add a print() call to the end of your program, informing people that you found a
 • Use append() to add one new guest to the end of your list.
 • Print a new set of invitation messages, one for each person in your list.
 """
+print("\nWe've got a bigger table!")
+guests.insert(0, 'Handanovic')
+guests.insert(2, 'Barella')
+guests.append('Milito')
 
+name = guests[0].title()
+print(name + ", I would like to invite you to dinner.")
+
+name = guests[1].title()
+print(name + ", I would like to invite you to dinner.")
+
+name = guests[2].title()
+print(name + ", I would like to invite you to dinner.")
+
+name = guests[3].title()
+print(name + ", I would like to invite you to dinner.")
+
+name = guests[4].title()
+print(name + ", I would like to invite you to dinner.")
+
+name = guests[5].title()
+print(name + ", I would like to invite you to dinner.")
 
 """
 3-7. Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, 
@@ -84,6 +116,36 @@ Each time you pop a name from your list, print a message to that person letting 
 • Use del to remove the last two names from your list, so you have an empty list. 
 Print your list to make sure you actually have an empty list at the end of your program.
 """
+
+# Oh no, the table won't arrive on time!
+print("\nSorry, we can only invite two people to dinner.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+
+# There should be two people left. Let's invite them.
+name = guests[0].title()
+print(name + ", please come to dinner.")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+# Empty out the list.
+del(guests[0])
+del(guests[0])
+
+# Prove the list is empty.
+print(guests)
 
 """
 3-8. Seeing the World: Think of at least five places in the world you’d like to visit.
