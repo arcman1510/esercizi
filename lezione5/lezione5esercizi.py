@@ -37,5 +37,6 @@ Result
 """
 
 def rounded_average(numbers: list[int]) -> int:
-    return rounded_average == round(sum(numbers) / len(numbers))
+    average:int = round(sum(numbers)/len(numbers))
+    return average
 print(rounded_average([1, 1, 2, 2]))
