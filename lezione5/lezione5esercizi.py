@@ -43,3 +43,15 @@ def rounded_average(numbers: list[int]) -> int:
 print(rounded_average([1, 1, 2, 2]))
 """
 
+"""
+Q4
+La funzione dovrebbe calcolare 
+la media dei numeri in una lista di interi.
+Un errore nell'implementazione porta a risultati inaspettati.
+"""
+
+def calculate_average(numbers: list[int]) -> float:
+    if len(numbers) == 0:
+        return sum(numbers) / len(numbers)
+    else:
+        return len(numbers) / sum(numbers) - 1
