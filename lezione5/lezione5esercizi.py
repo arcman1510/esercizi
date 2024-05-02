@@ -14,12 +14,13 @@ def find_element(lst: list[int], element: int) -> bool:
         return False
 """   
 """
-def find_element(lst: list[int], element: int) -> bool:
-    for item in lst:
-        if item == element:
+def find_element(lst: list[int], n: int) -> bool:
+    i=0
+    for value in lst:
+        if value == n:
             return True
-        else:
-            return False
+        i += 1
+    return False
 print(find_element([1, 2, 3, 4, 5], 5))
 """
 
@@ -35,8 +36,10 @@ print(rounded_average([1, 1, 2, 2]))
 Result
 2
 """
-
+"""
 def rounded_average(numbers: list[int]) -> int:
     average:int = round(sum(numbers)/len(numbers))
     return average
 print(rounded_average([1, 1, 2, 2]))
+"""
+
