@@ -8,7 +8,7 @@ print("Hello World")
 #such as, “Hello Eric, would you like to learn some Python today?”
 
 
-
+#esempio per vedere cosa succede
 
 # Questa variabile contiene il nome
 name: str = "Mario"
